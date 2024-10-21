@@ -330,98 +330,83 @@ h3.my-profession {
     object-fit: cover; 
     border-radius: 5px;
 }
-/* About styles */
-.about .about-content {
+/* About second */
+.about .about-content{
     flex: 0 0 100%;
     max-width: 100%;
 }
-
-.about .about-content .about-text {
+.about .about-content .about-text{
     flex: 0 0 100%;
     max-width: 100%;
 }
-
-.about .about-content .about-text h3 {
+.about .about-content .about-text h3{
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: 700;
     color: var(--text-black-900);
 }
-
-.about .about-content .about-text h3 span {
+.about .about-content .about-text h3 span{
     color: var(--skin-color);
 }
-
-.about .about-content .about-text p {
+.about .about-content .about-text p{
     font-size: 16px;
     line-height: 25px;
     color: var(--text-vlack-700);
 }
-
-.about .about-content .personal-info {
+.about .about-content .personal-info{
     flex: 0 0 60%;
     max-width: 60%;
     margin-top: 40px;
 }
-
-.about .about-content .personal-info .info-item {
+.about .about-content .personal-info .info-item{
     flex: 0 0 50%;
     max-width: 50%;
 }
-
-.about .about-content .personal-info .info-item p {
+.about .about-content .personal-info .info-item p{
     font-weight: 600;
     padding: 10px 0;
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
 }
-
-.about .about-content .personal-info .info-item p span {
+.about .about-content .personal-info .info-item p span{
     font-weight: 400;
     color: var(--text-vlack-700);
     margin-left: 4px;
     display: inline-block;
 }
-
-.about .about-content .personal-info .buttons {
+.about .about-content .personal-info .buttons{
     margin-top: 30px;
 }
-
-.about .about-content .personal-info .buttons .btn {
+.about .about-content .personal-info .buttons .btn{
     margin-right: 15px;
     margin-top: 10px;
 }
-
-.about .about-content .skills {
+.about .about-content .skills{
     flex: 0 0 40%;
     max-width: 40%;
     margin-top: 40px;
 }
-
-.about .about-content .skills .skill-item {
+.about .about-content .skills .skill-item{
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 25px;
 }
-
-.about .about-content .skills .skill-item h5 {
+.about .about-content .skills .skill-item h5{
     line-height: 40px;
     font-weight: 600;
     font-size: 16px;
     color: var(--text-black-900);
     text-transform: capitalize;
 }
-
-.about .about-content .skills .skill-item .progress {
+.about .about-content .skills .skill-item .progress{
     background-color: var(--bg-black-50);
     height: 7px;
     border-radius: 4px;
     width: 100%;
     position: relative;
 }
-
-.about .about-content .skills .skill-item .progress .progress-in {
+.about .about-content .skills .skill-item .progress .progress-in{
     position: absolute;
     left: 0;
     top: 0;
@@ -429,8 +414,7 @@ h3.my-profession {
     border-radius: 4px;
     background-color: var(--skin-color);
 }
-
-.about .about-content .skills .skill-percent {
+.about .about-content .skills .skill-percent{
     position: absolute;
     right: 0;
     color: var(--text-black-900);
@@ -438,28 +422,25 @@ h3.my-profession {
     font-weight: 400;
     line-height: 40px;
 }
-
 .about .about-content .education,
-.about .about-content .experience {
+.about .about-content .experience
+{
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 30px;
     color: var(--text-vlack-700);
 }
-
-.about .about-content .h3.title {
+.about .about-content .h3.title{
     font-size: 24px;
     margin-bottom: 30px;
     font-weight: 700;
     color: var(--text-black-900);
 }
-
-.about .about-content .timeline-box {
+.about .about-content .timeline-box{
     flex: 0 0 100%;
     max-width: 100%;
 }
-
-.about .about-content .timeline {
+.about .about-content .timeline{
     background-color: var(--bg-black-100);
     padding: 30px 15px;
     border: 1px solid var(--bg-black-50);
@@ -467,18 +448,15 @@ h3.my-profession {
     width: 100%;
     position: relative;
 }
-
-.about .about-content .timeline .timeline-item {
+.about .about-content .timeline .timeline-item{
     position: relative;
     padding-left: 37px;
     padding-bottom: 50px;
 }
-
-.about .about-content .timeline .timeline-item:last-child {
+.about .about-content .timeline .timeline-item:last-child{
     padding-bottom: 0;
 }
-
-.about .about-content .timeline .timeline-item:before {
+.about .about-content .timeline .timeline-item:before{
     content: '';
     width: 1px;
     position: absolute;
@@ -487,8 +465,7 @@ h3.my-profession {
     top: 0;
     background-color: var(--skin-color);
 }
-
-.about .about-content .timeline .timeline-item .circle-dot {
+.about .about-content .timeline .timeline-item .circle-dot{
     position: absolute;
     left: 0;
     top: 0;
@@ -497,33 +474,28 @@ h3.my-profession {
     border-radius: 50%;
     background-color: var(--skin-color);
 }
-
-.about .about-content .timeline .timeline-date {
+.about .about-content .timeline .timeline-date{
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 12px;
     color: var(--text-vlack-700);
 }
-
-.about .about-content .timeline .timeline-date .fa {
+.about .about-content .timeline .timeline-date .fa{
     margin-right: 5px;
 }
-
-.about .about-content .timeline .timeline-title {
+.about .about-content .timeline .timeline-title{
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: var(--text-black-900);
 }
-
-.about .about-content .timeline .timeline-text {
+.about .about-content .timeline .timeline-text{
     line-height: 25px;
     font-size: 16px;
     text-align: justify;
     color: var(--text-vlack-700);
 }
-
 /* Service */
 .service .container{
     padding-bottom: 40px;
@@ -604,9 +576,9 @@ h3.my-profession {
 }
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%; 
-    height: 40vh; 
-    object-fit: contain; 
-    max-height: 300px; 
+    height: 40vh; /* Maintain the aspect ratio */
+    object-fit: contain; /* Ensure image fills the area */
+    max-height: 300px; /* Define a max height for all images */
 }
 /* CONTACT */
 .contact-title{
@@ -708,9 +680,24 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .home .home-img{
+    /* .home .home-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 20px;
+    } */
+
+    .home .home-img img {
+        width: 100%; /* Ensure the image takes up the full width */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Adjust image fit */
+        border-radius: 15px;
+    }
+    ::after, ::before{
         display: none;
     }
+    /* .home .home-img{
+        display: none;
+    } */
 }
 @media (max-width:767px){
     .contact .contact-form .col-6,
@@ -724,4 +711,20 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .home .home-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .home .home-img img {
+        width: 100%; /* Ensure the image takes up the full width */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Adjust image fit */
+        border-radius: 15px;
+    }
+    ::after, ::before{
+        display: none;
+    }
+    
 }
