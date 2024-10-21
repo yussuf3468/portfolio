@@ -692,7 +692,8 @@ h3.my-profession {
         object-fit: cover; /* Adjust image fit */
         border-radius: 15px;
     }
-    ::after, ::before{
+    .home .home-img img::after,
+    .home .home-img img::before{
         display: none;
     }
     /* .home .home-img{
@@ -723,7 +724,8 @@ h3.my-profession {
         object-fit: cover; /* Adjust image fit */
         border-radius: 15px;
     }
-    ::after, ::before{
+    .home .home-img img::after,
+    .home .home-img img::before{
         display: none;
     }
     
