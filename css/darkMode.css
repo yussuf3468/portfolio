@@ -1,0 +1,21 @@
+.DarkMode {
+    position: fixed;
+    top: 15px;  
+    right: 15px;  
+    padding: 15px;
+}
+
+.DarkMode .s-icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center; /* Horizontally center the icon */
+    align-items: center; /* Vertically center the icon */
+    font-size: 20px;
+    background: var(--bg-black-100);
+    color: var(--text-black-900);
+    border: 1px solid var(--bg-black-50);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
